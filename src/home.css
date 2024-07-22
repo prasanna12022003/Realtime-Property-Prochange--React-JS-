@@ -1,0 +1,73 @@
+.home-tit{
+    border: none;
+    box-shadow: 0px 4px 8px rgb(117, 115, 115);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.home-title h1{
+    margin-bottom: 0px;
+}
+
+.home-tit Button{
+    background-color: rgb(36, 56, 145) !important; 
+    color: white !important;
+    margin-left: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.himg img{
+    padding: 30px;
+    width: 600px;
+    height: 500px;
+    transition: transform 0.4s;
+}
+
+.himg img:hover{
+    transform: scale(1.1)
+}
+
+.hwhole{
+    display: flex;
+}
+
+.hprice{
+    margin-top: 20px;
+}
+
+.contact-form form, Button{
+    padding: 12px;
+    font-size: medium !important;
+}
+
+
+.hwhole button{
+    margin: 10px;
+    padding: 10px 80px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(36, 56, 145);
+    border-radius: 2em;
+    font-size: large;
+    transition: transform 0.5s;
+}
+
+
+.hwhole button:hover{
+    background-color: rgb(36, 56, 145);
+    color: white;
+}
+
+.hdescription{
+    padding: 30px;
+}
+
+.grid-layout{
+    display: flex;
+    padding: 90px;
+    gap: 70px;
+    justify-content: center;
+}
+

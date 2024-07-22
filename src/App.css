@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(36, 56, 145);
+  color: white;
+}
+
+.header1, .header2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.header1 p, .header2 p {
+  margin: 0 10px;
+}
+
+.heading-row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.fixedheading{
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.row1, .row2 {
+  display: flex;
+  align-items: center;
+}
+
+.row1 .ui.dropdown {
+  margin: 0 10px;
+}
+
+.Homes:hover{
+  border: 1px solid rgb(36, 56, 145) !important;
+  border-radius: 0.2em;
+}
+
+.Listing:hover{
+  border: 1px solid rgb(36, 56, 145) !important;
+  border-radius: 0.2em;
+}
+
+.Features:hover{
+  border: 1px solid rgb(36, 56, 145) !important;
+  border-radius: 0.2em;
+}
+
+.Pages:hover{
+  border: 1px solid rgb(36, 56, 145) !important;
+  border-radius: 0.2em;
+}
+
+.Button {
+  background-color: white;
+  color: rgb(36, 56, 145);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+Button:hover{
+  background-color:rgb(36, 56, 145);
+  color: white;
+  border: none;
+  transform: scale(1.1);
+}
+
+.content-img img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  text-align: center;
+  margin: 20px;
+}
+
+.sale{
+  margin: 10px;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(52, 69, 143);
+  color: white;
+  border-radius: 2em;
+  font-size: large;
+  transition: transform 0.5s;
+}
+sale:hover{
+  transform: scale(1.1);
+}
+
+.rent{
+  margin: 10px;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(36, 56, 145);
+  border-radius: 2em;
+  font-size: large;
+  transition: transform 0.5s;
+}
+rent:hover{
+  transform: scale(1.1);
+}
+
+.heading-row3{
+  margin: 25px;
+  padding-left: 50px;
+}
+
+.preview {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.heading-row4{
+  background-color: rgb(36, 56, 145);
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 23px;
+}
+
+.heading-row5{
+  display: flex;
+  gap: 220px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.lc{
+  margin-top: 15px;
+}
+
+.cards
+{
+  max-width:250px;
+  height: 400px;
+  box-shadow: 0px 4px 8px rgb(117, 115, 115);
+  border-radius: 0.4em;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards img{
+  width:100%;
+  height: 45%;
+  transition: transform 0.3s;
+}
+
+.cards img:hover{
+  transform: scale(1.3);
+}
+
+.cards p{
+  color:grey;
+}
+
+.heading-row6{
+  border: none;
+  box-shadow: 0px 4px 8px rgb(117, 115, 115);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.sixth-heading{
+  padding-top: 50px;
+}
+
+.uk, .usa{
+  height: 250px;
+  width: 500px;
+  transition: transform 0.3s;
+}
+
+.uk:hover{
+  transform: scale(1.1);
+}
+
+.usa:hover{
+  transform: scale(1.1);
+}
+
+.germany, .ireland{
+  height: 250px;
+  width: 350px;
+  transition: transform 0.3s;
+}
+
+.germany:hover{
+  transform: scale(1.1);
+}
+
+.ireland:hover{
+  transform: scale(1.1);
+}
+
+.first2cities{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.cities{
+  margin-left: 250px;
+}
+.a1{
+position: relative;
+}
+.a2{
+position: absolute;
+bottom:5%;
+left:10%;
+color: white;
+}
+.ui.modal>.content{
+  width: auto !important;
+}
+
+.footer{
+  margin-top: 100px;
+  background-color: rgb(36, 56, 145);
+  color: white;
+  padding: 50px;
+}
+
+.footer-content{
+  padding: 40px;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.footer-cnt{
+  margin-left: 50px;
+  align-items: start;
+  width: 350px;
+  height: 50px;
+}
+
+.footer-link{
+  margin-left: 150px;
+}
+
+.footer-end{
+  margin-top: 0px;
+  color: gray;
+  padding: 20px;
+}
+
+.footer-address{
+  justify-content: end;
+  align-items: end;
+  margin-left: 200px;
+}
+
+.footer-icon{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+  color: rgb(36, 56, 145) !important;
+}
+
+.welcome{
+  margin-top: 300px;
+}
